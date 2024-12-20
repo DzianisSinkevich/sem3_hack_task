@@ -12,23 +12,21 @@
 
 Данные для проекта взяты из открытого датасета отзывов на организации в России, доступного на GitHub. Датасет содержит 500 000 уникальных отзывов, опубликованных на Яндекс Картах с января по июль 2023 года.
 
-Данные: https://github.com/yandex/geo-reviews-dataset-2023
-
-## Технологии
-- [Python](https://www.python.org/)
-
-## Использование
-Датасет: https://github.com/yandex/geo-reviews-dataset-2023
-- Датасет содержит следующие столбцы:
+Датасет: https://github.com/yandex/geo-reviews-dataset-2023, содержит:
 - address: Адрес организации.
 - name_ru: Название организации.
 - rubrics: Список рубрик, к которым относится организация.
 - rating: Оценка пользователя (от 0 до 5).
 - text: Текст отзыва.
 
-- /notebooks/3sem_hackaton_prepare.ipynb: блокнот с подготовкой данных
-- /notebooks/3sem_hackaton_model_fit.ipynb: блокнот с обучением модели
-- /notebooks/3sem_hackaton_model_use.ipynb: блокнот с проверкой работы модели
+## Технологии
+- [Python](https://www.python.org/)
+
+## Использование
+1. */notebooks/3sem_hackaton_prepare.ipynb*: блокнот с подготовкой данных
+2. */notebooks/3sem_hackaton_model_fit.ipynb*: блокнот с обучением модели
+3. */notebooks/3sem_hackaton_model_use.ipynb*: блокнот с проверкой работы модели
+- возможен произвольный ввод данных(рубрика, рейтинг, ключевые слова), на основе которых модель сгенерирует отзыв.
 
 ## Команда проекта
 - [Виталий К] — Developer
